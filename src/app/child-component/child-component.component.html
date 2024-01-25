@@ -1,0 +1,8 @@
+<p *ngIf="this.counter==0">{{this.childColorFromParent}}child-component works!</p>
+
+<p>Second Value {{this.counter}}</p>
+<p *ngFor="let log of changeLog">
+     {{log}}
+    </p>
+
+<button (click)="multiply()">Multiply By 5</button>
